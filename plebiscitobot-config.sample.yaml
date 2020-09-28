@@ -1,12 +1,13 @@
-telegram:
-  token: xxxx
-  channel: xxx
-
-vimeo:
-  token: xxx
-  user_id: xxxx
-  check_interval: xxx
-  
 servel:
-  global_page: xxx
-  check_interval: xxx
+  active: false
+  checkinterval: 1
+  url: xxx  
+telegram:
+  channel: 'xxx'
+  token: xxx
+vimeo:
+  active: true
+  checkinterval: 1
+  latestdate: "2020-09-24 00:00:00"
+  token: xxx
+  userid: cntvchile
