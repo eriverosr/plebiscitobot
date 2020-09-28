@@ -1,0 +1,12 @@
+telegram:
+  token: xxxx
+  channel: xxx
+
+vimeo:
+  token: xxx
+  user_id: xxxx
+  check_interval: xxx
+  
+servel:
+  global_page: xxx
+  check_interval: xxx

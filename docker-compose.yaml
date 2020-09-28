@@ -1,0 +1,11 @@
+version: "3"
+services:
+    plebiscitobot:
+        build: ./
+        container_name: plebiscito-bot
+        restart: always
+        volumes:
+          - "./plebiscitobot-config.yaml:/etc/bots/plebiscitobot-config.yaml"
+
+
+
